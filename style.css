@@ -1,0 +1,64 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: Rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Rainbow {
+        from {box-shadow: 1px 1px 38px yellow;}
+      
+        to {box-shadow: 1px 1px 38px purple;}
+}
+
+body {
+    font-family: 'Fascinate', cursive;
+    color: white;
+}
+
+.copy_right_footer {
+    bottom: 0;
+    position: fixed;
+    color: #ff837a;
+    background-color: white;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
+
+#mister11 {
+    height: 100px;
+    width: 300px;
+    background: #ff0040;
+    border-color:#ff0040;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+#mister12 {
+    height: 100px;
+    width: 300px;
+    background: #00b7ff;
+    border-color:#00b7ff;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+#mister13 {
+    height: 100px;
+    width: 300px;
+    background: #00ff1e;
+    border-color:#00ff1e;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
